@@ -1,0 +1,2 @@
+set(IMUHOST_DIR ${CMAKE_CURRENT_LIST_DIR}/src/imu_host)
+set(HIDAPI_DIR ${CMAKE_CURRENT_LIST_DIR}/src/hidapi)

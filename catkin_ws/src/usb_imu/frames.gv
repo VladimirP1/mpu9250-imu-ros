@@ -1,0 +1,7 @@
+digraph G {
+"world" -> "test"[label="Broadcaster: /usb_imu\nAverage rate: 995.878 Hz\nMost recent transform: 1531646770.178 ( 0.000 sec old)\nBuffer length: 4.949 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1531646770.179"[ shape=plaintext ] ;
+ }->"world";
+}
